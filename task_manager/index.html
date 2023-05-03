@@ -5,9 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task Manager</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <!-- form  -->
+    <form class="form">
+      <h4 class="form-title">task manager</h4>
+      <div class="form-control">
+        <input
+          type="text"
+          class="form-input"
+          placeholder="e.g clean the room"
+        />
+        <button class="btn submit-btn">submit</button>
+      </div>
+      <small class="form-alert">There was an error</small>
+    </form>
+    <!-- end form  -->
+
+    <!-- tasks container -->
+    <section class="tasks-container">
+      <p class="text-loading">Loading...</p>
+      <!-- tasks  -->
+      <div class="tasks">
+        <!-- single task  -->
+        <div class="single-task">
+          <h5><i class="fa-solid fa-circle-check"></i> Task Name</h5>
+          <div class="task-links">
+            <!-- edit link  -->
+            <a href="./edit.html" class="edit-link">
+              <i class="fa-solid fa-pen-to-square"></i>
+            </a>
+            <!-- end of edit link  -->
+            <!-- delete button  -->
+            <button class="delete-button">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+            <!-- end of delete button  -->
+          </div>
+        </div>
+        <!-- end of single task  -->
+        <!-- single task  -->
+        <div class="single-task task-completed">
+          <h5><i class="fa-solid fa-circle-check"></i> Task Name</h5>
+          <div class="task-links">
+            <!-- edit link  -->
+            <a href="./edit.html" class="edit-link">
+              <i class="fa-solid fa-pen-to-square"></i>
+            </a>
+            <!-- end of edit link  -->
+            <!-- delete button  -->
+            <button class="delete-button">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+            <!-- end of delete button  -->
+          </div>
+        </div>
+        <!-- end of single task  -->
+      </div>
+      <!-- end of tasks  -->
+    </section>
+    <!-- end of tasks container  -->
     <script src="./index.js"></script>
   </body>
 </html>

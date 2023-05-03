@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form class="form single-task-form">
+      <h4>edit task</h4>
+      <div class="form-control">
+        <label class="label-form">task id</label>
+        <p class="task-edit-id">654321</p>
+      </div>
+      <div class="form-control">
+        <label for="name" class="label-form">name</label>
+        <input
+          type="text"
+          class="form-input task-edit-name"
+          value="wash the car"
+          id="name"
+        />
+      </div>
+      <div class="form-control form-grid">
+        <label for="completed" class="label-form">completed</label>
+        <input
+          type="checkbox"
+          class="form-input task-edit-completed"
+          id="completed"
+        />
+      </div>
+      <button type="submit" class="btn btn-block">Edit</button>
+      <div class="form-alert">There was an Error</div>
+    </form>
+    <a href="./index.html" class="btn back-link">back to tasks</a>
+    <script src="./index.js"></script>
+  </body>
+</html>
