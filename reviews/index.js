@@ -22,11 +22,19 @@ function showReview() {
 }
 
 nextButton.addEventListener("click", (e) => {
+  // 0 + 1 % 4 = 1
+  // 1 + 1 % 4 = 2
+  // 2 + 1 % 4 = 3
+  // 3 + 1 % 4 = 0
   currentItem = (currentItem + 1) % reviews.length;
   showReview();
 });
 
 prevButton.addEventListener("click", (e) => {
+  // 0 - 1 + 4 % 4 = 3
+  // 1 - 1 + 4 % 4 = 0
+  // 2 - 1 + 4 % 4 = 1
+  // 3 - 1 + 4 % 4 = 2
   currentItem = (currentItem - 1 + reviews.length) % reviews.length;
   showReview();
 });
