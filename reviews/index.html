@@ -16,37 +16,37 @@
   </head>
   <body>
     <main class="main">
-      <div class="title">
-        <h2>Our Reviews</h2>
-        <div class="underline"></div>
-      </div>
-      <div class="container">
+      <section class="section-center">
+        <div class="section-title">
+          <h2>reviews</h2>
+          <div class="underline"></div>
+        </div>
         <article class="review">
           <div class="img-container">
             <img
-              src="https://images.pexels.com/photos/3454298/pexels-photo-3454298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="review-picture"
-              id="review-picture"
-            />
+            src="https://images.pexels.com/photos/3454298/pexels-photo-3454298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=img-person" class="review-img" id="review-img" />
           </div>
           <h4 id="author">carol dw</h4>
-          <p id="job">front-end developer</p>
-          <p id="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-            incidunt, vel voluptatibus expedita repudiandae nobis sint commodi
-            dolore modi nemo?
+          <p id="job" class="job">front-end developer</p>
+          <p class="text" id="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            nemo, dolores ipsa magni incidunt perspiciatis earum expedita
+            ducimus quidem.
           </p>
-          <div class="buttons-container">
-            <button class="prev-btn">
-              <i class="fa-solid fa-angles-left"></i>
-            </button>
-            <button class="next-btn">
-              <i class="fa-solid fa-angles-right"></i>
-            </button>
+          <div class="btn-container">
+            <span class="prev-btn">
+              <i class="fa-solid fa-chevron-left"></i>
+            </span>
+            <span class="next-btn">
+              <i class="fa-solid fa-chevron-right"></i>
+            </span>
           </div>
           <button class="btn random-btn">surprise me</button>
         </article>
-      </div>
+      </section>
     </main>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

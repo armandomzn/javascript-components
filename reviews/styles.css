@@ -50,7 +50,7 @@ html {
   --letter-spacing: 1px;
   --border-radius: 0.25rem;
   --max-width: 1170px;
-  --fixed-width: 500px;
+  --fixed-width: 700px;
   --error-alert: #ca322b;
   --green-alert: #d4edda;
 }
@@ -145,135 +145,122 @@ Custom Styles
 
 /*
 ************
-reviews
+Reviews
 ************
 */
-
 .main {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 
-.title {
+.section-center {
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  width: 90%;
+}
+
+.section-title {
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .underline {
-  width: 7rem;
-  height: 0.25rem;
-  margin: -1rem auto 0 auto;
+  width: 6rem;
+  height: 0.275rem;
+  margin: -0.5rem auto 2rem auto;
   background-color: var(--primary-500);
-}
-
-.container {
-  max-width: var(--fixed-width);
-  width: 95%;
 }
 
 .review {
   background: var(--white);
-  margin: 2rem auto 0 auto;
-  box-shadow: var(--shadow-2);
-  border-radius: var(--border-radius);
-  padding: 1.5rem 2rem;
-  transition: var(--transition);
-  text-align: center;
-}
-
-.review:hover {
+  padding: 2rem;
   box-shadow: var(--shadow-3);
+  border-radius: var(--border-radius);
+  display: grid;
+  place-items: center;
 }
 
 .img-container {
-  width: 9.375rem;
-  height: 9.375rem;
-  margin: 0 auto 2rem auto;
   position: relative;
+}
+
+.img-container::after {
+  content: "\f10e";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--primary-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 1.2rem;
 }
 
 .img-container::before {
   content: "";
+  position: absolute;
   width: 100%;
   height: 100%;
-  background: var(--primary-500);
-  position: absolute;
+  border-radius: 50%;
+  left: -0.5rem;
   top: -0.25rem;
-  right: -0.5rem;
-  border-radius: 50%;
-}
-
-.img-container::after {
-  font-family: "Font Awesome 5 Free";
-  content: "\f10e";
-  font-weight: 900;
-  width: 2.2rem;
-  height: 2.2rem;
-  top: 0;
-  left: 0;
   background: var(--primary-500);
-  border-radius: 50%;
-  color: white;
-  position: absolute;
-  display: grid;
-  place-items: center;
-  transform: translateY(50%);
 }
 
-#review-picture {
+.review-img {
+  width: 9.375rem;
+  height: 9.375rem;
   border-radius: 50%;
-  height: 100%;
   position: relative;
 }
 
-#author {
+.review h4 {
+  margin: 1rem 0 0.5rem 0;
   letter-spacing: var(--letter-spacing);
+}
+
+.review .job {
+  color: var(--primary-600);
+  text-transform: capitalize;
   font-weight: bold;
-  margin-bottom: 1rem;
+  letter-spacing: var(--letter-spacing);
 }
 
-#job {
-  text-transform: uppercase;
-  color: var(--primary-500);
-  font-size: 0.85rem;
-  margin: 0 0 1.5rem 0;
+.review .text {
+  text-align: center;
 }
 
-#info {
-  margin-bottom: 0.75rem;
-}
-
-.buttons-container {
-  margin-bottom: 1rem;
+.btn-container {
+  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
 }
 
 .prev-btn,
 .next-btn {
-  font-size: 1.25rem;
-  background: transparent;
-  border: transparent;
-  color: var(--primary-500);
-  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-600);
   cursor: pointer;
-  transition: var(--transition);
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .prev-btn:hover,
 .next-btn:hover {
   color: var(--primary-700);
+  transform: scale(1.2);
 }
 
 .random-btn {
-  border: 2px solid var(--primary-500);
-  background: var(--primary-100);
-  color: var(--primary-600);
-  transition: var(--transition);
+  padding: 0.5rem 1rem;
 }
 
 .random-btn:hover {
-  color: var(--primary-100);
-  border-color: var(--primary-600);
+  background: var(--primary-800);
 }
