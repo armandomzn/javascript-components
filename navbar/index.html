@@ -12,6 +12,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -20,54 +37,58 @@
       <div class="nav-center">
         <!-- nav header  -->
         <div class="nav-header">
-          <h4 class="logo">armando<span>mzn</span></h4>
+          <h1 class="logo">armando<span>mzn</span></h1>
           <button class="nav-toggle">
             <i class="fa-solid fa-bars-staggered"></i>
           </button>
         </div>
-        <!-- end of nav header  -->
+        <!-- end nav header  -->
+        <!-- nav-links  -->
+        <div class="container">
+          <ul class="nav-links">
+            <li>
+              <a href="/">home</a>
+            </li>
+            <li>
+              <a href="/about">about</a>
+            </li>
+            <li>
+              <a href="/projects">projects</a>
+            </li>
+            <li>
+              <a href="/contact">contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end nav links  -->
 
-        <!-- links  -->
-        <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <!-- end of links  -->
-
-        <!-- social media  -->
-        <ul class="social-media">
+        <!-- social links  -->
+        <ul class="social-links">
           <li>
-            <a href="#">
+            <a href="https://twitter.com/">
               <i class="fa-brands fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.facebook.com/">
               <i class="fa-brands fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="#">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
+            <a href="https://www.linkedin.com">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://www.atlassian.com/">
               <i class="fa-brands fa-jira"></i>
             </a>
           </li>
         </ul>
-        <!-- end of social media  -->
+        <!-- end social links  -->
       </div>
       <!-- end nav center  -->
     </nav>
-    <script src="./index.js"></script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
