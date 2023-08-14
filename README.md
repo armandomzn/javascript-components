@@ -17,3 +17,10 @@
 
 ## Live Example
 - [Responsive navbar that dynamically adjusts the navigation links that are provided](https://funny-sawine-3c5025.netlify.app/)
+
+## Sidebar Modal
+![](./screenshots/sidebar-1.jpeg)
+![](./screenshots/sidebar-2.jpeg)
+
+## Live Example
+- [Sidebar and modal](https://celebrated-gelato-467006.netlify.app/)
