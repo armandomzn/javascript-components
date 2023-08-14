@@ -12,63 +12,105 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <button class="sidebar-toggle">
-      <i class="fa-solid fa-bars-staggered"></i>
-    </button>
-    <aside class="sidebar">
-      <!-- sidebar header  -->
-      <div class="sidebar-header">
-        <a href="./index.html">
-          <h4>armando<span>mzn</span></h4>
-        </a>
-        <button class="close-btn">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
+    <main>
+      <button class="toggle-btn">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+      <!-- aside  -->
+      <aside class="sidebar">
+        <!-- sidebar header  -->
+        <div class="sidebar-header">
+          <h2 class="logo">armando<span>mzn</span></h2>
+          <button class="close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <!-- end sidebar header -->
+        <!-- nav links  -->
+        <ul class="nav-links">
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="/about">about</a>
+          </li>
+          <li>
+            <a href="/projects">projects</a>
+          </li>
+          <li>
+            <a href="/contact">contact</a>
+          </li>
+        </ul>
+        <!-- end nav links -->
+        <!-- social links  -->
+        <ul class="social-links">
+          <li>
+            <a href="https://twitter.com/">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.atlassian.com/">
+              <i class="fa-brands fa-jira"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- end social links  -->
+      </aside>
+      <!-- end aside  -->
+      <!-- modal btn  -->
+      <button class="modal-btn btn">open modal</button>
+      <!-- end modal btn  -->
+      <!-- modal  -->
+      <div class="modal-overlay">
+        <div class="modal-container">
+          <!-- modal header  -->
+          <div class="modal-header">
+            <h2>modal title</h2>
+            <button class="close-btn close-modal-btn">
+              <i class="fa fa-times"></i>
+            </button>
+          </div>
+          <!-- end modal header  -->
+          <!-- modal content  -->
+          <div class="modal-content">
+            <p>Modal Content</p>
+          </div>
+          <!-- end modal content -->
+        </div>
       </div>
-      <!-- end of sidebar header  -->
-
-      <!-- links  -->
-      <ul class="links">
-        <li><a href="./index.html">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">projects</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
-      <!-- end of links  -->
-
-      <!-- social media  -->
-      <ul class="social-media">
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa-brands fa-jira"></i>
-          </a>
-        </li>
-      </ul>
-      <!-- end of social media  -->
-    </aside>
-    <script src="./index.js"></script>
+      <!-- end modal  -->
+    </main>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
