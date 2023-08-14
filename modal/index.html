@@ -12,35 +12,57 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- hero  -->
-    <header class="hero">
-      <div class="banner">
+    <!-- header  -->
+    <header>
+      <!-- banner  -->
+      <div class="hero">
         <h1>modal window</h1>
-        <button class="btn modal-btn">open modal</button>
+        <button class="open-modal btn">open modal</button>
       </div>
+      <!-- end banner  -->
     </header>
-    <!-- end of hero  -->
-
+    <!-- end header  -->
     <!-- modal  -->
     <div class="modal-overlay">
+      <!-- modal container  -->
       <div class="modal-container">
+        <!-- modal header  -->
         <div class="modal-header">
-          <h4>modal title</h4>
+          <h2>modal title</h2>
           <button class="close-btn">
-            <i class="fa-solid fa-xmark"></i>
+            <i class="fa fa-times"></i>
           </button>
         </div>
-        <div class="modal-info">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus culpa dignissimos cupiditate laboriosam illo earum animi, ducimus perferendis natus.
-          </p>
+        <!-- end modal header  -->
+        <!-- modal content  -->
+        <div class="modal-content">
+          <p>Modal Content</p>
         </div>
+        <!-- end modal content  -->
       </div>
+      <!-- end modal container  -->
     </div>
-    <!-- end of modal  -->
+    <!-- end modal  -->
     <div class="container"></div>
 
     <script src="./index.js"></script>
