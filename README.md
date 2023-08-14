@@ -24,3 +24,8 @@
 
 ## Live Example
 - [Sidebar and modal](https://celebrated-gelato-467006.netlify.app/)
+
+## Modal
+![](./screenshots/modal.jpeg)
+## Live Example
+- [Modal](https://boisterous-tapioca-5dc5a2.netlify.app/)
