@@ -12,90 +12,68 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <section class="questions">
-      <h2 class="title">general questions</h2>
-      <div class="section-center">
+    <main>
+      <!-- section  -->
+      <section class="section-center">
+        <!-- title  -->
+        <div class="section-title">
+          <h1>questions</h1>
+          <div class="underline"></div>
+        </div>
+        <!-- end title  -->
         <!-- question  -->
-        <article class="question">
-          <!-- question title   -->
-          <div class="question-title">
-            <p>How can i contact you?</p>
-            <button class="question-btn">
-              <span class="plus-icon">
-                <i class="fa-regular fa-square-plus"></i>
-              </span>
-              <span class="minus-icon">
-                <i class="fa-regular fa-square-minus"></i>
-              </span>
-            </button>
-          </div>
-          <!-- end of question title  -->
-          <div class="question-text">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Doloribus tenetur ullam accusamus dignissimos, nam voluptates id
-              maiores quia excepturi quas magnam, similique, exercitationem
-              alias. Dolore itaque distinctio consectetur. Hic, magni?
-            </p>
-          </div>
-        </article>
-        <!-- end of question  -->
-        <!-- question  -->
-        <article class="question">
-          <!-- question title   -->
-          <div class="question-title">
-            <p>What frameworks do you use for the backend?</p>
-            <button class="question-btn">
-              <span class="plus-icon">
-                <i class="fa-regular fa-square-plus"></i>
-              </span>
-              <span class="minus-icon">
-                <i class="fa-regular fa-square-minus"></i>
-              </span>
-            </button>
-          </div>
-          <!-- end of question title  -->
-          <div class="question-text">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Doloribus tenetur ullam accusamus dignissimos, nam voluptates id
-              maiores quia excepturi quas magnam, similique, exercitationem
-              alias. Dolore itaque distinctio consectetur. Hic, magni?
-            </p>
-          </div>
-        </article>
-        <!-- end of question  -->
-        <!-- question  -->
-        <article class="question">
-          <!-- question title   -->
-          <div class="question-title">
-            <p>What frameworks do you use for the frontend?</p>
-            <button class="question-btn">
-              <span class="plus-icon">
-                <i class="fa-regular fa-square-plus"></i>
-              </span>
-              <span class="minus-icon">
-                <i class="fa-regular fa-square-minus"></i>
-              </span>
-            </button>
-          </div>
-          <!-- end of question title  -->
-          <div class="question-text">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Doloribus tenetur ullam accusamus dignissimos, nam voluptates id
-              maiores quia excepturi quas magnam, similique, exercitationem
-              alias. Dolore itaque distinctio consectetur. Hic, magni?
-            </p>
-          </div>
-        </article>
-        <!-- end of question  -->
-      </div>
-    </section>
+        <div class="questions">
+          <article class="question">
+            <!-- header  -->
+            <header>
+              <h5>What is JavaScript and what is it used for?</h5>
+              <!-- toggle button  -->
+              <button class="toggle-btn">
+                <span class="up-button">
+                  <i class="fa-solid fa-chevron-up"></i>
+                </span>
+                <span class="down-button">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </span>
+              </button>
+              <!-- end toggle button  -->
+            </header>
+            <!-- end header  -->
+            <div class="question-text">
+              <p>
+                JavaScript is a widely used programming language in web
+                development. It's used to add interactivity, dynamism, and
+                functionality to websites. It allows you to manipulate page
+                content, respond to user events, and make requests to servers.
+              </p>
+            </div>
+          </article>
+          <!-- end question  -->
+        </div>
+      </section>
+      <!-- end section  -->
+    </main>
 
-    <script src="./index.js"></script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
