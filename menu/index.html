@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accordion</title>
+    <title>Menu</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -15,74 +15,50 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <section class="section">
-      <!-- section title  -->
-      <div class="section-title">
-        <h2>our menu</h2>
-        <div class="underline"></div>
-      </div>
-      <!-- end of section title  -->
-
-      <!-- section center  -->
-      <div class="section-center">
+    <main>
+      <section class="section section-center">
+        <!-- section title  -->
+        <div class="section-title">
+          <h2>our menu</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- end section title  -->
         <div class="btn-container">
-          <button type="button" class="btn filter-btn">all</button>
-          <button type="button" class="btn filter-btn">breakfast</button>
-          <button type="button" class="btn filter-btn">lunch</button>
-          <button type="button" class="btn filter-btn">shakes</button>
+          <!-- <button class="filter-btn btn">all</button>
+          <button class="filter-btn btn">mexican food</button>
+          <button class="filter-btn btn">fast food</button>
+          <button class="filter-btn btn">breakfast</button> -->
         </div>
-        <div class="section-menu">
+        <div class="menu-section">
           <!-- menu item  -->
           <article class="menu-item">
+            <!-- menu photo  -->
             <img
-              src="https://images.pexels.com/photos/842519/pexels-photo-842519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="menu-item"
-              class="photo"
+              src="https://images.pexels.com/photos/9772454/pexels-photo-9772454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="food"
+              class="menu-photo"
             />
+            <!-- end menu photo  -->
             <!-- menu info  -->
             <div class="menu-info">
               <header>
-                <h5>pizza</h5>
-                <span class="price">$20</span>
+                <h5>enchiladas</h5>
+                <span class="menu-price"> $20.60 </span>
               </header>
-              <div class="menu-description">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Officia perferendis asperiores tempore? Esse aliquid, dolor
-                  amet eos quaerat eveniet atque.
-                </p>
-              </div>
+              <!-- menu description  -->
+              <p class="menu-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                eveniet tempora eum nostrum officia culpa voluptates voluptas
+                totam nesciunt quibusdam?
+              </p>
+              <!-- end menu description  -->
             </div>
-            <!-- end of menu info  -->
+            <!-- end menu info  -->
           </article>
-          <!-- end of menu item  -->
-          <!-- menu item  -->
-          <article class="menu-item">
-            <img
-              src="https://images.pexels.com/photos/842519/pexels-photo-842519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="menu-item"
-              class="photo"
-            />
-            <!-- menu info  -->
-            <div class="menu-info">
-              <header>
-                <h5>pizza</h5>
-                <span class="price">$20</span>
-              </header>
-              <div class="menu-description">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Officia perferendis asperiores tempore? Esse aliquid, dolor
-                  amet eos quaerat eveniet atque.
-                </p>
-              </div>
-            </div>
-            <!-- end of menu info  -->
-          </article>
-          <!-- end of menu item  -->
+          <!-- end menu item  -->
         </div>
-      </div>
-      <!-- end of section center  -->
-    </section>
+      </section>
+    </main>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
