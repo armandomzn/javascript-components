@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smooth Scroll</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header id="home">
+      <!-- navbar  -->
+      <nav>
+        <!-- nav center  -->
+        <div class="nav-center">
+          <!-- nav header  -->
+          <div class="nav-header">
+            <h2 class="logo">armando<span>mzn</span></h2>
+            <button class="toggle-btn">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <!-- end nav header  -->
+          <!-- links container  -->
+          <div class="links-container">
+            <!-- links  -->
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link"> home </a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link"> about </a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link"> projects </a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link"> contact </a>
+              </li>
+            </ul>
+            <!-- end links  -->
+          </div>
+          <!-- end links container  -->
+        </div>
+        <!-- end nav center  -->
+      </nav>
+      <!-- end navbar  -->
+      <!-- banner  -->
+      <div class="banner">
+        <h1>Smooth Scroll</h1>
+        <p>Smooth scroll and fixed navbar using javascript</p>
+      </div>
+      <!-- end banner  -->
+    </header>
+    <!-- end header  -->
+
+    <!-- about  -->
+    <section id="about" class="section">
+      <div class="section-title">
+        <h3>about <span>us</span></h3>
+      </div>
+    </section>
+    <!-- end about  -->
+    <!-- projects  -->
+    <section id="projects" class="section">
+      <div class="section-title">
+        <h3>our <span>projects</span></h3>
+      </div>
+    </section>
+    <!-- end projects  -->
+    <!-- contact  -->
+    <section id="contact" class="section">
+      <div class="section-title">
+        <h3><span>contact</span></h3>
+      </div>
+    </section>
+    <!-- end contact  -->
+
+    <footer class="section">
+      <p>
+        Copyright © Smooth Scroll Project <span id="date"></span>. All Rights
+        Reserved
+      </p>
+    </footer>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
