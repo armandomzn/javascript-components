@@ -1,5 +1,3 @@
-import { pageLinks } from "./data.js";
-
 const links = document.querySelector(".links");
 const navLinksContainer = document.querySelector(".links-container");
 

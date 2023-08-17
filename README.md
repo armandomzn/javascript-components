@@ -41,13 +41,26 @@
 - [Modal](https://boisterous-tapioca-5dc5a2.netlify.app/)
 
 ## Accordion
+
 ![](./screenshots/accordion.jpeg)
 
 ## Live Example
+
 - [Accordion opening only one element](https://unique-truffle-f87e44.netlify.app/)
 
 ## Menu
+
 ![](./screenshots/menu.jpeg)
 
 ## Live Example
+
 - [Menu filtering categories from a dataset](https://steady-croquembouche-94a78d.netlify.app/)
+
+## Smooth Scroll
+
+![](./screenshots/smooth-scroll-1.jpeg)
+![](./screenshots/smooth-scroll-2.jpeg)
+
+## Live Example
+
+- [Smooth scrolling with javascript calculating the height of the sections with getboundingclientrect function and fixed menu](https://loquacious-shortbread-b3b333.netlify.app/)
