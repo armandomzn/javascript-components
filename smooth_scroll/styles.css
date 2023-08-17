@@ -358,4 +358,8 @@ footer #date {
 
 footer p {
   margin-bottom: 0;
+  max-width: var(--fixed-width);
+  width: 95%;
+  margin-top: 0 auto;
+  text-align: center;
 }
