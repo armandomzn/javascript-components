@@ -64,3 +64,9 @@
 ## Live Example
 
 - [Smooth scrolling with javascript calculating the height of the sections with getboundingclientrect function and fixed menu](https://loquacious-shortbread-b3b333.netlify.app/)
+
+## Tabs
+![](./screenshots/tabs-1.jpeg)
+![](./screenshots/tabs-2.jpeg)
+## Live Example
+- [Tabs project where the data is injected through js and we search for the element through id](https://capable-strudel-b888ee.netlify.app/)
