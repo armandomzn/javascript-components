@@ -178,9 +178,8 @@ Lorem
 }
 
 .lorem-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(222px, 100%), 1fr));
   align-items: center;
   gap: 1rem;
 }
@@ -198,7 +197,7 @@ Lorem
   appearance: none;
 }
 
-.lorem-amount{
+.lorem-amount {
   padding: 1rem;
   border: none;
   border-radius: var(--border-radius);
@@ -207,12 +206,12 @@ Lorem
   font-weight: bold;
 }
 
-.submit-btn{
+.submit-btn {
   padding: 1rem;
   font-weight: bold;
   background: var(--primary-800);
 }
-.lorem-text{
+.lorem-text {
   background: var(--white);
   box-shadow: var(--shadow-2);
   padding: 2rem;
@@ -222,13 +221,14 @@ Lorem
 .lorem-text p {
   color: var(--grey-500);
   letter-spacing: 1px;
-  font-family: var(--headingFont);margin-bottom: 1rem;
+  font-family: var(--headingFont);
+  margin-bottom: 1rem;
 }
 
-.lorem-text p:last-child{
+.lorem-text p:last-child {
   margin-bottom: 0;
 }
 
-.lorem-text{
+.lorem-text {
   display: none;
 }
