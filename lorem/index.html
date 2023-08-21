@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorem Ipsum Generator</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section">
+        <div class="section-title">
+          <h3>lorem ipsum generator</h3>
+          <div class="underline"></div>
+        </div>
+        <div class="section-center">
+          <form action="" class="lorem-form">
+            <select name="lorem" id="lorem" class="lorem-options">
+              <option value="paragraphs">paragraphs</option>
+              <option value="words">words</option>
+              <option value="sentences">sentences</option>
+            </select>
+            <input
+              type="number"
+              min="1"
+              max="30"
+              value="1"
+              class="lorem-amount"
+              id="amount"
+            />
+            <input type="submit" value="generate" class="submit-btn btn" />
+          </form>
+          <article class="lorem-text">
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
