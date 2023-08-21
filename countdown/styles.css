@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:400");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+} /*16px*/
+
+:root {
+  --primary-100: #d9f0d3;
+  --primary-200: #b2e1a8;
+  --primary-300: #8cd17c;
+  --primary-400: #65c251;
+  --primary-500: #3fb325;
+  --primary-600: #328f1e;
+  --primary-700: #266b16;
+  --primary-800: #19480f;
+  --primary-900: #0d2407;
+  --white: #fff;
+  --black: #000;
+  /* fonts  */
+  --bodyFont: "Open Sans", sans-serif;
+  --headingFont: "Raleway", sans-serif;
+  /* grey colors  */
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+  /* box shadow*/
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --transition: 0.2s all linear;
+  --letter-spacing: 1px;
+  --border-radius: 0.25rem;
+  --max-width: 1170px;
+  --fixed-width: 700px;
+  --error-alert: #ca322b;
+  --green-alert: #d4edda;
+}
+
+/* global styles  */
+
+body {
+  background: var(--grey-50);
+  font-family: var(--bodyFont);
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--black);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-family: var(--headingFont);
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+/*
+************
+Custom Styles
+************
+*/
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  background: var(--primary-500);
+  display: inline-block;
+  border-radius: var(--border-radius);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--letter-spacing);
+  color: var(--white);
+  transition: var(--transition);
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.btn:hover {
+  background: var(--primary-600);
+  box-shadow: var(--shadow-3);
+}
+
+/*
+************
+CountDown
+************
+*/
+main {
+  background: var(--grey-5000);
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-center {
+  max-width: var(--max-width);
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.item-img img {
+  height: 80%;
+  border-radius: var(--border-radius);
+}
+@media (min-width: 768px) {
+  .section-center {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.item-info h3 {
+  color: var(--primary-500);
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+}
+.item-info h4 {
+  font-size: clamp(0.875rem, 5vw, 1.2rem);
+  color: var(--primary-600);
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+}
+
+.item-info p {
+  color: var(--grey-800);
+}
+
+.deadline {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(80px, 100%), 1fr));
+  gap: 1rem;
+}
+
+.deadline-format {
+  background: var(--primary-500);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: var(--headingFont);
+}
+
+.deadline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.deadline-format p {
+  margin-bottom: 0;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.deadline-container span {
+  display: inline-block;
+  font-size: clamp(0.875rem, 5vw, 0.9rem);
+}
+
+.deadline .expired {
+  color: var(--primary-800);
+  font-size: 1.5rem;
+}
