@@ -12,67 +12,56 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="./img/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./img/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="./img/favicon-16x16.png"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <!-- form  -->
-    <form class="form">
-      <h4 class="form-title">task manager</h4>
-      <div class="form-control">
-        <input
-          type="text"
-          class="form-input"
-          placeholder="e.g clean the room"
-        />
-        <button class="btn submit-btn">submit</button>
-      </div>
-      <small class="form-alert">There was an error</small>
-    </form>
-    <!-- end form  -->
-
-    <!-- tasks container -->
-    <section class="tasks-container">
-      <p class="text-loading">Loading...</p>
-      <!-- tasks  -->
-      <div class="tasks">
-        <!-- single task  -->
-        <div class="single-task">
-          <h5><i class="fa-solid fa-circle-check"></i> Task Name</h5>
-          <div class="task-links">
-            <!-- edit link  -->
-            <a href="./edit.html" class="edit-link">
-              <i class="fa-solid fa-pen-to-square"></i>
-            </a>
-            <!-- end of edit link  -->
-            <!-- delete button  -->
-            <button class="delete-button">
-              <i class="fa-solid fa-trash"></i>
-            </button>
-            <!-- end of delete button  -->
+    <main>
+      <section class="section-center">
+        <!-- task form  -->
+        <form class="task-form">
+          <h4>task manager</h4>
+          <div class="form-control">
+            <input type="text" id="task" placeholder="e.g clean the room" />
+            <input type="submit" value="submit" class="btn submit-btn" />
           </div>
-        </div>
-        <!-- end of single task  -->
-        <!-- single task  -->
-        <div class="single-task task-completed">
-          <h5><i class="fa-solid fa-circle-check"></i> Task Name</h5>
-          <div class="task-links">
-            <!-- edit link  -->
-            <a href="./edit.html" class="edit-link">
-              <i class="fa-solid fa-pen-to-square"></i>
-            </a>
-            <!-- end of edit link  -->
-            <!-- delete button  -->
-            <button class="delete-button">
-              <i class="fa-solid fa-trash"></i>
-            </button>
-            <!-- end of delete button  -->
+          <small class="alert invisible"></small>
+        </form>
+        <!-- end task form  -->
+        <!-- task container  -->
+        <div class="task-container">
+          <!-- task list  -->
+          <div class="task-list">
           </div>
+          <button class="btn clear-btn">clear all</button>
+          <!-- end task list  -->
         </div>
-        <!-- end of single task  -->
-      </div>
-      <!-- end of tasks  -->
-    </section>
-    <!-- end of tasks container  -->
+        <!-- end task container  -->
+      </section>
+    </main>
     <script src="./index.js"></script>
   </body>
 </html>
