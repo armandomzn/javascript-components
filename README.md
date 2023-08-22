@@ -89,3 +89,11 @@
 ## Live Example
 
 - [Dynamic lorem ipsum generator using forms](https://adorable-capybara-f08381.netlify.app/)
+
+## Task Manager
+
+![](./screenshots/task_manager.jpeg)
+
+## Live Example
+
+- [Task manager using local storage](https://eloquent-cassata-5ab73c.netlify.app/)
