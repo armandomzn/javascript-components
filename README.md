@@ -97,3 +97,8 @@
 ## Live Example
 
 - [Task manager using local storage](https://eloquent-cassata-5ab73c.netlify.app/)
+
+## Slider
+![](./screenshots/slider.jpeg)
+## Live Example
+- [Slider modifying properties in the dom to update the current element](https://incandescent-gumption-a0779c.netlify.app/)
