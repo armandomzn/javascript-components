@@ -121,3 +121,11 @@
 ## Live Example
 
 - [Random numbers using interval and updating each element in the dom](https://visionary-daffodil-6943e6.netlify.app/)
+
+## Dark Mode
+
+![](./screenshots/dark-mode-1.jpeg)
+
+![](./screenshots/dark-mode-2.jpeg)
+
+-[Dark mode using css variables to change the colors](https://relaxed-gumdrop-88c9b6.netlify.app/)
