@@ -109,8 +109,15 @@
 ## Gallery
 
 ![](./screenshots/gallery-1.jpeg)
-![](./screenshots/gallery-2.jpeg)
 
 ## Live Example
 
 - [Gallery using a class to manage the state of the elements](https://cheery-moonbeam-293c01.netlify.app/)
+
+## Random Numbers
+
+![](./screenshots/random_number.jpeg)
+
+## Live Example
+
+- [Random numbers using interval and updating each element in the dom](https://visionary-daffodil-6943e6.netlify.app/)
