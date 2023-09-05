@@ -128,4 +128,10 @@
 
 ![](./screenshots/dark-mode-2.jpeg)
 
--[Dark mode using css variables to change the colors](https://relaxed-gumdrop-88c9b6.netlify.app/)
+- [Dark mode using css variables to change the colors](https://relaxed-gumdrop-88c9b6.netlify.app/)
+
+## Filters
+
+![](./screenshots/filters.jpeg)
+
+- [Application using filters with ES6 methods](https://earnest-sfogliatella-bdd278.netlify.app/)
