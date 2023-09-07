@@ -135,3 +135,9 @@
 ![](./screenshots/filters.jpeg)
 
 - [Application using filters with ES6 methods](https://earnest-sfogliatella-bdd278.netlify.app/)
+
+## Norris Jokes
+
+![](./screenshots/norris-joke.jpeg)
+
+- [Application using chuck norris api to fetch some joke](https://starlit-melomakarona-6ce20c.netlify.app/)
