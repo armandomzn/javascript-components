@@ -141,3 +141,9 @@
 ![](./screenshots/norris-joke.jpeg)
 
 - [Application using chuck norris api to fetch some joke](https://starlit-melomakarona-6ce20c.netlify.app/)
+
+## Random Users API
+
+![](./screenshots/random-user.jpeg)
+
+- [Fetching data from random user api](https://shiny-paprenjak-dd71ec.netlify.app/)
