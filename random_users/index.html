@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Users API</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <!-- random user  -->
+      <article class="random-user">
+        <!-- random user img container  -->
+        <div class="random-user-img-container">
+          <img
+            src="https://randomuser.me/api/portraits/men/75.jpg"
+            alt="random user"
+            class="random-user-img"
+          />
+        </div>
+        <!-- end random user img container  -->
+        <p class="title">My name is:</p>
+        <p class="value">Max Graham</p>
+        <div class="btn-container">
+          <span class="icon active" data-title="name">
+            <i class="fa-solid fa-user"></i>
+          </span>
+          <span class="icon" data-title="email">
+            <i class="fa-regular fa-envelope"></i>
+          </span>
+          <span class="icon" data-title="age">
+            <i class="fa-regular fa-calendar"></i>
+          </span>
+          <span class="icon" data-title="street">
+            <i class="fa-regular fa-map"></i>
+          </span>
+          <span class="icon" data-title="phone">
+            <i class="fa-solid fa-phone"></i>
+          </span>
+          <span class="icon" data-title="password">
+            <i class="fa-solid fa-user-check"></i>
+          </span>
+        </div>
+        <button class="btn">random user</button>
+      </article>
+      <!-- end random user  -->
+    </section>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
