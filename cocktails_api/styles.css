@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:400");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  height: 100%;
+} /*16px*/
+
+:root {
+  --primary-100: #d9f0d3;
+  --primary-200: #b2e1a8;
+  --primary-300: #8cd17c;
+  --primary-400: #65c251;
+  --primary-500: #3fb325;
+  --primary-600: #328f1e;
+  --primary-700: #266b16;
+  --primary-800: #19480f;
+  --primary-900: #0d2407;
+  --white: #fff;
+  --black: #000;
+  /* fonts  */
+  --bodyFont: "Open Sans", sans-serif;
+  --headingFont: "Raleway", sans-serif;
+  /* grey colors  */
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+  /* box shadow*/
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --transition: 0.2s all linear;
+  --letter-spacing: 1px;
+  --border-radius: 0.25rem;
+  --max-width: 1170px;
+  --fixed-width: 700px;
+  --error-alert: #ca322b;
+  --green-alert: #d4edda;
+}
+
+/* global styles  */
+
+body {
+  background: var(--grey-50);
+  font-family: var(--bodyFont);
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--black);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-family: var(--headingFont);
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/*
+************
+Custom Styles
+************
+*/
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  background: var(--primary-500);
+  display: inline-block;
+  border-radius: var(--border-radius);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--letter-spacing);
+  color: var(--white);
+  transition: var(--transition);
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.btn:hover {
+  background: var(--primary-600);
+  box-shadow: var(--shadow-3);
+}
+
+/* Color generator */
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading {
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid var(--grey-400);
+  border-radius: 50%;
+  border-top-color: var(--primary-500);
+  animation: spinner 0.9s linear infinite;
+  /* visibility: hidden; */
+}
+
+/*
+************
+Cocktails
+************
+*/
+.section-center {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 90%;
+  padding: 4rem 0;
+}
+
+.section-center h1 {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: var(--letter-spacing);
+  color: var(--primary-500);
+  font-weight: bold;
+}
+
+.form-container {
+  background: var(--white);
+  padding: 2rem;
+  box-shadow: var(--shadow-2);
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  border-radius: var(--border-radius);
+}
+
+.cocktail-form {
+  display: grid;
+  grid-template-columns: minmax(100%, 1fr);
+  gap: 0.5rem;
+}
+
+.input-form {
+  padding: 0.5rem;
+  border: 1px solid var(--grey-300);
+  border-radius: var(--border-radius);
+  background: var(--grey-50);
+  color: var(--grey-500);
+}
+
+@media (min-width: 480px) {
+  .cocktail-form {
+    grid-template-columns: 1fr auto;
+    gap: 0;
+  }
+  input[type="submit"] {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .input-form {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.cocktails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(358px, 100%), 1fr));
+  gap: 2rem;
+  padding: 4rem 0 1rem 0;
+}
+
+.cocktail {
+  background: var(--white);
+  box-shadow: var(--shadow-3);
+  border-radius: var(--border-radius);
+}
+
+.cocktail-img {
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  height: 15.6rem;
+}
+
+.cocktail-info {
+  padding: 1rem;
+}
+
+.cocktail-title,
+.cocktail-glass,
+.cocktail-alcoholic {
+  font-size: 1rem;
+  color: var(--grey-500);
+  margin-bottom: 1rem;
+  /* letter-spacing: var(--letter-spacing); */
+}
+
+.cocktail-title {
+  font-weight: bold;
+  color: var(--primary-500);
+}
+
+.cocktail-alcoholic {
+  text-transform: capitalize;
+}
+
+.cocktail-info .btn {
+  width: 100%;
+  text-align: center;
+}
+
+.cocktail-info p {
+  text-transform: capitalize;
+  color: var(--grey-500);
+  letter-spacing: var(--letter-spacing);
+}
+
+.drink-info {
+  color: var(--primary-600);
+  background: var(--primary-100);
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+  border-radius: var(--border-radius);
+}
+
+.cocktail-card {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  background: var(--white);
+  box-shadow: var(--shadow-2);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+
+.cocktail-card .cocktail-title {
+  text-transform: uppercase;
+}
+
+.cocktail-btn-top {
+  display: none;
+}
+
+.cocktail-card .cocktail-title {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .cocktail-card {
+    justify-items: start;
+    grid-template-columns: 1fr auto;
+  }
+  .cocktail-btn-top {
+    display: block;
+  }
+}
+
+.cocktail-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.cocktail-container .cocktail-info {
+  padding: 0;
+}
+
+.cocktail-btn-bottom {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .cocktail-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cocktail-btn-bottom {
+    display: none;
+  }
+}
+
+.cocktail-img-container img {
+  max-height: 30rem;
+  border-radius: var(--border-radius);
+}
+
+.hide-loading {
+  display: none;
+}
