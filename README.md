@@ -150,4 +150,6 @@
 
 ## Cocktail API
 
-![](./screenshots/cocktail-api.jpeg) -[Fetching data from cocktail api and searching cocktails given the endpoint](https://main--subtle-wisp-0dfd74.netlify.app/)
+![](./screenshots/cocktail-api.jpeg)
+
+- [Fetching data from cocktail api and searching cocktails given the endpoint](https://main--subtle-wisp-0dfd74.netlify.app/)
