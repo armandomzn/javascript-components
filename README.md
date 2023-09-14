@@ -153,3 +153,10 @@
 ![](./screenshots/cocktail-api.jpeg)
 
 - [Fetching data from cocktail api and searching cocktails given the endpoint](https://main--subtle-wisp-0dfd74.netlify.app/)
+
+## Strapi Menu
+
+![](./screenshots/strapi-menu-1.png)
+![](./screenshots/strapi-menu-2.png)
+
+- [Strapi type menu using mouse events to handle the submenus and adding sidebar for small devices](https://animated-sunburst-47a37e.netlify.app/)
