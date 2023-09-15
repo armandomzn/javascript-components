@@ -172,3 +172,11 @@
 ## Live Example
 
 - [Strapi type menu using mouse events to handle the submenus and adding sidebar for small devices](https://animated-sunburst-47a37e.netlify.app/)
+
+## Pagination
+
+![](./screenshots/pagination.jpeg)
+
+## Live Example
+
+- [Pagination project using github api to fetch some random users and display the data through a class that controls the pagination](https://unrivaled-speculoos-43cbc9.netlify.app/)
