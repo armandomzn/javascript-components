@@ -128,11 +128,15 @@
 
 ![](./screenshots/dark-mode-2.jpeg)
 
+## Live Example
+
 - [Dark mode using css variables to change the colors](https://relaxed-gumdrop-88c9b6.netlify.app/)
 
 ## Filters
 
 ![](./screenshots/filters.jpeg)
+
+## Live Example
 
 - [Application using filters with ES6 methods](https://earnest-sfogliatella-bdd278.netlify.app/)
 
@@ -140,11 +144,15 @@
 
 ![](./screenshots/norris-joke.jpeg)
 
+## Live Example
+
 - [Application using chuck norris api to fetch some joke](https://starlit-melomakarona-6ce20c.netlify.app/)
 
 ## Random Users API
 
 ![](./screenshots/random-user.jpeg)
+
+## Live Example
 
 - [Fetching data from random user api](https://shiny-paprenjak-dd71ec.netlify.app/)
 
@@ -152,11 +160,15 @@
 
 ![](./screenshots/cocktail-api.jpeg)
 
+## Live Example
+
 - [Fetching data from cocktail api and searching cocktails given the endpoint](https://main--subtle-wisp-0dfd74.netlify.app/)
 
 ## Strapi Menu
 
 ![](./screenshots/strapi-menu-1.png)
 ![](./screenshots/strapi-menu-2.png)
+
+## Live Example
 
 - [Strapi type menu using mouse events to handle the submenus and adding sidebar for small devices](https://animated-sunburst-47a37e.netlify.app/)
