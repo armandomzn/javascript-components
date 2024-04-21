@@ -63,7 +63,7 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: var(--black);
-  transition: background .3s ease-in-out;
+  transition: background 0.3s ease-in-out;
 }
 
 p {
@@ -247,4 +247,101 @@ nav {
   display: grid;
   place-items: center;
   gap: 1.2rem;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(110%);
+  }
+
+  75% {
+    transform: translateX(-10%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-10%);
+  }
+
+  100% {
+    transform: translateX(110%);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes toastProgress {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+.alert {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  max-width: 15rem;
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-1);
+  z-index: 5;
+  animation: slideInRight 0.3s ease-in-out forwards,
+    fadeOut 0.5s ease-in-out forwards 3s;
+  transform: translateX(110%);
+}
+
+.alert-progress {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: var(--grey-500);
+  animation: toastProgress 0.2s ease-in-out forwards;
+}
+
+.alert.alert-success {
+  background: #65a30d;
+}
+
+.alert.alert-danger {
+  background: #e74c3c;
+}
+.alert-message {
+  font-size: 0.875rem;
+  color: var(--white);
+  padding: 0.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.alert.alert-success .alert-progress {
+  background: #d9f99d;
+}
+
+.alert.alert-danger .alert-progress {
+  background: #efaca5;
 }

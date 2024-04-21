@@ -1,4 +1,9 @@
-import { changeBackground, getLocalStorage, setLocalStorage } from "./utils.js";
+import {
+  changeBackground,
+  getLocalStorage,
+  setLocalStorage,
+  writeClipBoard,
+} from "./utils.js";
 
 const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
@@ -23,11 +28,14 @@ window.addEventListener("load", (e) => {
   const hex = getLocalStorage("hexColor");
   if (hex) {
     changeBackground(hex, spanColor);
+    return;
   }
+  changeBackground(spanColor.textContent, spanColor);
 });
 
-btn.addEventListener("click", (e) => {
+btn.addEventListener("click", async (e) => {
   const hex = getHexColor();
   setLocalStorage("hexColor", hex);
   changeBackground(hex, spanColor);
+  await writeClipBoard(hex);
 });
