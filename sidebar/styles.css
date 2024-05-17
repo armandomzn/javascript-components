@@ -240,9 +240,11 @@ Sidebar
   font-weight: 700;
   cursor: pointer;
 }
+
 .close-btn i {
   transition: transform 0.4s ease-in-out;
 }
+
 .close-btn i:hover {
   transform: rotate(360deg);
 }
@@ -321,6 +323,7 @@ Sidebar
   border-radius: var(--border-radius);
   padding: 1rem;
   overflow-y: auto;
+  overflow-x: hidden;
   height: 30vh;
 }
 
@@ -336,12 +339,12 @@ Sidebar
   margin-bottom: 0;
 }
 
-.modal-header .close-modal-btn {
+.modal-header .close-modal-btn i {
   transition: transform 0.3s ease-in-out, rotate 0.3s ease-in;
 }
 
-.modal-header .close-modal-btn:hover {
-  transform: scale(1.2) rotate(360deg);
+.modal-header .close-modal-btn i:hover {
+  transform: scale(1.1) rotate(360deg);
 }
 
 .modal-content {
