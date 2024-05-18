@@ -50,7 +50,10 @@ form.addEventListener("keyup", (e) => {
   filterProjects = projects.filter((project) => {
     return []
       .concat(project.technologiesUsed)
-      .some((fItem) => fItem.includes(value));
+      .map((p) => {
+        return p.toLowerCase();
+      })
+      .some((fItem) => fItem.includes(value.toLowerCase()));
   });
   if (filterProjects.length === 0) {
     projectSection.innerHTML = `<h5 class="not-found">Sorry, no projects matched your search...</h5>`;
