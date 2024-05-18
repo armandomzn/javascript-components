@@ -24,10 +24,14 @@ nextBtn.addEventListener("click", nextSlide);
 prevBtn.addEventListener("click", prevSlide);
 let counter = 0;
 function nextSlide() {
+  clearInterval(interval);
+  interval = setInterval(nextSlide, 2000);
   counter = (counter + 1) % slides.length;
   carousel();
 }
 function prevSlide() {
+  clearInterval(interval);
+  interval = setInterval(nextSlide, 2000);
   counter = (counter - 1 + slides.length) % slides.length;
   carousel();
 }
@@ -74,4 +78,4 @@ function createArticles() {
   slidersContainer.insertAdjacentHTML("afterbegin", elements);
 }
 
-setInterval(nextSlide, 2000);
+let interval = setInterval(nextSlide, 2000);
