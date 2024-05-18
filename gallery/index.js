@@ -15,7 +15,7 @@ class Gallery {
     this.modal = getElement(".modal");
     this.modalImage = getElement(".main-img");
     this.modalImages = getElement(".modal-images");
-    this.closeBtn = this.modal.querySelector(".close-btn");
+    this.closeBtn = this.modal.querySelector(".close-btn-container");
     this.nextBtn = this.modal.querySelector(".next-btn");
     this.prevBtn = this.modal.querySelector(".prev-btn");
     // binding functions
