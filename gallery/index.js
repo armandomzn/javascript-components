@@ -27,6 +27,7 @@ class Gallery {
     // event listeners
     this.container.addEventListener("click", this.openModal);
   }
+
   setMainImage(currentImage) {
     const image = currentImage.firstElementChild;
     this.modalImage.src = image.src;
@@ -63,6 +64,7 @@ class Gallery {
       this.modalImages.addEventListener("click", this.chooseImageModal);
     }
   }
+
   closeModal() {
     this.modal.classList.remove("open");
     // removing listeners
@@ -71,6 +73,7 @@ class Gallery {
     this.prevBtn.removeEventListener("click", this.previousImage);
     this.modalImages.removeEventListener("click", this.chooseImageModal);
   }
+
   nextImage() {
     const selected = this.modalImages.querySelector(".selected");
     const nextElement =
@@ -80,15 +83,17 @@ class Gallery {
     nextElement.children[0].classList.add("selected");
     this.setMainImage(nextElement);
   }
+
   previousImage() {
     const selected = this.modalImages.querySelector(".selected");
-    const nextElement =
+    const prevElement =
       selected.parentElement.previousElementSibling ||
       this.modalImages.lastElementChild;
     selected.classList.remove("selected");
-    nextElement.children[0].classList.add("selected");
-    this.setMainImage(nextElement);
+    prevElement.children[0].classList.add("selected");
+    this.setMainImage(prevElement);
   }
+
   chooseImageModal(e) {
     if (!e.target.classList.contains("img-container")) {
       return;
