@@ -1,14 +1,13 @@
 ## Random Color Generator
 
-![](./screenshots/random_color_generator.jpeg)
+![random_color_generator](https://github.com/user-attachments/assets/251efb01-c6b2-4141-a6c2-75ce34673aec)
 
 ## Live Example
 
 - [Random color generator using recursion for rgb and hex colors](https://charming-clafoutis-767e43.netlify.app/)
 
 ## Reviews
-
-![](./screenshots//reviews.jpeg)
+![reviews](https://github.com/user-attachments/assets/98307534-c854-4e43-a710-97ac80f39db1)
 
 ## Live Example
 
@@ -16,8 +15,8 @@
 
 ## Navbar
 
-![](./screenshots/navbar-1.jpeg)
-![](./screenshots/navbar-2.jpeg)
+![navbar-1](https://github.com/user-attachments/assets/4754e4c1-6bd5-4cd4-8cfb-e1ac62189ff1)
+![navbar-2](https://github.com/user-attachments/assets/0a91102d-9c55-4357-ac99-30e19eb8a017)
 
 ## Live Example
 
@@ -25,16 +24,16 @@
 
 ## Sidebar Modal
 
-![](./screenshots/sidebar-1.jpeg)
-![](./screenshots/sidebar-2.jpeg)
+![sidebar-1](https://github.com/user-attachments/assets/457e5f96-17b1-470c-bc58-a98d779d06b0)
+![sidebar-2](https://github.com/user-attachments/assets/a9007549-2a09-49fb-b431-559b66ff85ab)
 
-## Live Example
+## Live Example![Uploading sidebar-2.jpeg…]()
+
 
 - [Sidebar and modal](https://celebrated-gelato-467006.netlify.app/)
 
 ## Modal
-
-![](./screenshots/modal.jpeg)
+![modal](https://github.com/user-attachments/assets/900422a8-1839-4209-b360-0cd268edbe00)
 
 ## Live Example
 
@@ -42,7 +41,7 @@
 
 ## Accordion
 
-![](./screenshots/accordion.jpeg)
+![accordion](https://github.com/user-attachments/assets/aab28152-b4d1-4fef-97da-823e4bb3e79c)
 
 ## Live Example
 
@@ -50,7 +49,7 @@
 
 ## Menu
 
-![](./screenshots/menu.jpeg)
+![menu](https://github.com/user-attachments/assets/66ed4ab9-fc68-4170-8358-76eac319bbf4)
 
 ## Live Example
 
@@ -58,8 +57,8 @@
 
 ## Smooth Scroll
 
-![](./screenshots/smooth-scroll-1.jpeg)
-![](./screenshots/smooth-scroll-2.jpeg)
+![smooth-scroll-1](https://github.com/user-attachments/assets/9c91a7a4-19b7-47b6-b809-8533eb76235a)
+![smooth-scroll-2](https://github.com/user-attachments/assets/f6865c82-1f84-48ac-a979-0f5e16dfdab3)
 
 ## Live Example
 
@@ -67,8 +66,8 @@
 
 ## Tabs
 
-![](./screenshots/tabs-1.jpeg)
-![](./screenshots/tabs-2.jpeg)
+![tabs-1](https://github.com/user-attachments/assets/bc38319f-1acd-4770-91ea-14b01a24091e)
+![tabs-2](https://github.com/user-attachments/assets/08aa18ed-6091-4bc3-9486-cbe32190d769)
 
 ## Live Example
 
@@ -76,7 +75,7 @@
 
 ## Countdown
 
-![](./screenshots/countdown.jpeg)
+![countdown](https://github.com/user-attachments/assets/52a28c11-e416-4efc-9ee6-24519466dc4d)
 
 ## Live Example
 
@@ -84,7 +83,7 @@
 
 ## Lorem Ipsum
 
-![](./screenshots/lorem.jpeg)
+![lorem](https://github.com/user-attachments/assets/cce43bd1-e955-4cb4-bde6-5d447d58343c)
 
 ## Live Example
 
@@ -92,7 +91,7 @@
 
 ## Task Manager
 
-![](./screenshots/task_manager.jpeg)
+![task_manager](https://github.com/user-attachments/assets/b767d0b9-1f24-4d10-8618-39acd8c6a25f)
 
 ## Live Example
 
@@ -100,7 +99,7 @@
 
 ## Slider
 
-![](./screenshots/slider.jpeg)
+![slider](https://github.com/user-attachments/assets/9ae4a427-da11-4662-8010-04587aeec966)
 
 ## Live Example
 
@@ -108,7 +107,7 @@
 
 ## Gallery
 
-![](./screenshots/gallery-1.jpeg)
+![gallery-1](https://github.com/user-attachments/assets/508161b9-a9a4-4cde-bf47-3eff73cfe1a5)
 
 ## Live Example
 
@@ -116,7 +115,7 @@
 
 ## Random Numbers
 
-![](./screenshots/random_number.jpeg)
+![random_number](https://github.com/user-attachments/assets/0232ccae-ffee-4e1c-abdb-e2b4b571eea4)
 
 ## Live Example
 
@@ -124,9 +123,8 @@
 
 ## Dark Mode
 
-![](./screenshots/dark-mode-1.jpeg)
-
-![](./screenshots/dark-mode-2.jpeg)
+![dark-mode-1](https://github.com/user-attachments/assets/3272d9a7-86ca-413e-ae47-a7d5bdb18ba6)
+![dark-mode-2](https://github.com/user-attachments/assets/2037c3ac-7557-4051-b3cc-b65488533b55)
 
 ## Live Example
 
@@ -134,7 +132,7 @@
 
 ## Filters
 
-![](./screenshots/filters.jpeg)
+![filters](https://github.com/user-attachments/assets/a6449926-a062-48d4-940b-df9789b317b9)
 
 ## Live Example
 
@@ -142,7 +140,7 @@
 
 ## Norris Jokes
 
-![](./screenshots/norris-joke.jpeg)
+![norris-joke](https://github.com/user-attachments/assets/4530ac3c-7167-4778-bed1-28538491aa4c)
 
 ## Live Example
 
@@ -150,7 +148,7 @@
 
 ## Random Users API
 
-![](./screenshots/random-user.jpeg)
+![random-user](https://github.com/user-attachments/assets/3e2d7b90-5ef7-4c8c-857a-2fa1a5f29d7b)
 
 ## Live Example
 
@@ -158,7 +156,8 @@
 
 ## Cocktail API
 
-![](./screenshots/cocktail-api.jpeg)
+![cocktail-api](https://github.com/user-attachments/assets/e8ce65aa-dbd6-4ed6-b38d-ba2d9466f52b)
+
 
 ## Live Example
 
@@ -166,16 +165,15 @@
 
 ## Strapi Menu
 
-![](./screenshots/strapi-menu-1.png)
-![](./screenshots/strapi-menu-2.png)
+![strapi-menu-1](https://github.com/user-attachments/assets/eb53f642-ff61-4ca3-8282-6dd0b509e075)
+![strapi-menu-2](https://github.com/user-attachments/assets/f5d6af42-e843-4e0d-afde-889250cb7002)
 
 ## Live Example
 
 - [Strapi type menu using mouse events to handle the submenus and adding sidebar for small devices](https://animated-sunburst-47a37e.netlify.app/)
 
 ## Pagination
-
-![](./screenshots/pagination.jpeg)
+![pagination](https://github.com/user-attachments/assets/b1cdb77b-153c-4d16-9a14-bc697d6597e7)
 
 ## Live Example
 
