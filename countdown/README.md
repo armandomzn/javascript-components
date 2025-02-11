@@ -1,4 +1,4 @@
-# Reviews Countdown
+# Countdown
 
 This is a **JavaScript** project that features a countdown timer, displaying the remaining time until a specific future date. The project dynamically updates the **DOM** to show days, hours, minutes, and seconds left. It is styled using pure **CSS**.
 
