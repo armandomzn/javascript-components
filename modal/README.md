@@ -19,7 +19,7 @@ Once you've downloaded the project folder, follow the steps below to get it up a
 No external dependencies are required. Simply open the `index.html` file in your browser.
 
 ### 2. Run the Project
-Open the `index.html` file in a browser to use the proyect.
+Open the `index.html` file in a browser to use the project.
 
 ---
 
