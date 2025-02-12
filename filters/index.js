@@ -41,25 +41,26 @@ const displayProjects = () => {
 displayProjects();
 
 // text filter
+let timeout;
 const form = document.querySelector(".project-form");
 const searchInput = document.querySelector(".search-input");
 form.addEventListener("keyup", (e) => {
-  const value = `${searchInput.value
-    .charAt(0)
-    .toUpperCase()}${searchInput.value.substring(1)}`;
-  filterProjects = projects.filter((project) => {
-    return []
-      .concat(project.technologiesUsed)
-      .map((p) => {
-        return p.toLowerCase();
-      })
-      .some((fItem) => fItem.includes(value.toLowerCase()));
-  });
-  if (filterProjects.length === 0) {
-    projectSection.innerHTML = `<h5 class="not-found">Sorry, no projects matched your search...</h5>`;
-    return;
+  if (timeout) {
+    clearTimeout(timeout);
   }
-  displayProjects();
+  const value = searchInput.value.trim().toLowerCase();
+  timeout = setTimeout(() => {
+    filterProjects = projects.filter((project) => {
+      return project.technologiesUsed.some((tech) => {
+        return tech.toLowerCase().includes(value);
+      });
+    });
+    if (filterProjects.length === 0) {
+      projectSection.innerHTML = `<h5 class="not-found">Sorry, no projects matched your search...</h5>`;
+      return;
+    }
+    displayProjects();
+  }, 2000);
 });
 
 const technologiesContainer = document.querySelector(".btn-container");
@@ -89,20 +90,15 @@ technologiesContainer.addEventListener("click", (e) => {
   if (!e.target.classList.contains("project-btn")) {
     return;
   }
-  switch (e.target.dataset.id) {
-    case "all":
-      filterProjects = [...projects];
-      break;
-    default:
-      filterProjects = projects.filter((project) => {
-        for (const iterator of project.technologiesUsed) {
-          if (iterator === e.target.dataset.id) {
-            return project;
-          } else {
-            continue;
-          }
-        }
+  const targetId = e.target.dataset.id;
+  if (targetId === "all") {
+    filterProjects = [...projects];
+  } else {
+    filterProjects = projects.filter((project) => {
+      return project.technologiesUsed.some((tech) => {
+        return tech === targetId;
       });
+    });
   }
   searchInput.value = "";
   displayProjects();
