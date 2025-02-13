@@ -100,16 +100,16 @@ A pagination system fetching user data from GitHub API and displaying in paginat
 
 You can clone this repository and explore each individual project. For each project, the `index.html` file will open the corresponding live example.
 
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/armandomzn/javascript-components.git
 ```
-### 2. Navigate to a Project Folder
+### 2. Navigate to a project folder
 ```bash
 cd path/to/project-folder
 ```
-### 3. Open the index.html File in Your Browser
+### 3. Open the index.html file in your browser
 Each project is self-contained and can be viewed by opening its respective index.html file in any modern browser.
 
 ## Key Concepts Across Projects
