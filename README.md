@@ -1,6 +1,6 @@
 # JavaScript Projects Showcase
 
-**About**: Creation of HTML, CSS, and JavaScript components for reuse and modularization of web pages. This repository features a collection of reusable web development components that demonstrate different techniques and concepts in JavaScript, providing modular solutions for common UI elements and interactions.
+Creation of HTML, CSS, and JavaScript components for reuse and modularization of web pages. This repository features a collection of reusable web development components that demonstrate different techniques and concepts in JavaScript, providing modular solutions for common UI elements and interactions.
 
 ---
 
@@ -88,7 +88,7 @@ Fetching and displaying cocktail recipes based on API data.
 
 ### 21. [Strapi Menu](https://animated-sunburst-47a37e.netlify.app/)
 ![strapi-menu-1](https://github.com/user-attachments/assets/eb53f642-ff61-4ca3-8282-6dd0b509e075)
-A dynamic menu that fetches data from Strapi CMS and adjusts for smaller devices.
+A dynamic menu that fetches data from a data.js file and adapts its layout based on the screen size. It truly stands out with its interactive submenus that appear when you hover over the links. On smaller screens, the navigation switches to a sidebar, offering a more compact and accessible layout for mobile devices.
 
 ### 22. [Pagination](https://unrivaled-speculoos-43cbc9.netlify.app/)
 ![pagination](https://github.com/user-attachments/assets/b1cdb77b-153c-4d16-9a14-bc697d6597e7)

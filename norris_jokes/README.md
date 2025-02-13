@@ -44,4 +44,4 @@ Open the `index.html` file in a browser to start generating random jokes.
 
 ## Live Demo
 ![norris-joke](https://github.com/user-attachments/assets/b17a54c1-8c06-46f8-bd75-d2348c81718f)
-- [Application using chuck norris api to fetch some joke](https://starlit-melomakarona-6ce20c.netlify.app/)
+- [A Chuck Norris jokes generator using the official Chuck Norris API.](https://starlit-melomakarona-6ce20c.netlify.app/)

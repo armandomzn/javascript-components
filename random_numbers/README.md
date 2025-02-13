@@ -40,4 +40,4 @@ Open the `index.html` file in a browser to view the project.
 
 ## Live Demo
 ![random_number](https://github.com/user-attachments/assets/cca2f110-ae05-4d5a-b243-754b6465ebc5)
-- [Random numbers using interval and updating each element in the dom](https://visionary-daffodil-6943e6.netlify.app/)
+- [A random number generator that updates elements in the DOM using setInterval.](https://visionary-daffodil-6943e6.netlify.app/)

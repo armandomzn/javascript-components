@@ -42,4 +42,4 @@ Open the index.html file in a browser to use the project.
 
 ## Live Demo
 ![menu](https://github.com/user-attachments/assets/4b1ca49f-48be-46e8-981b-303bdec26130)
-- [Menu filtering categories from a dataset](https://steady-croquembouche-94a78d.netlify.app/)
+- [A filtering menu that categorizes and displays dataset items.](https://steady-croquembouche-94a78d.netlify.app/)

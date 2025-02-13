@@ -39,4 +39,4 @@ Open the index.html file in a browser to use the project.
 
 ## Live Demo
 ![accordion](https://github.com/user-attachments/assets/2e00f05e-b997-41c6-854b-adea2676b445)
-- [Accordion opening only one element](https://unique-truffle-f87e44.netlify.app/)
+- [An accordion component that opens only one element at a time.](https://unique-truffle-f87e44.netlify.app/)

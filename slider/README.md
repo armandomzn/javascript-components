@@ -45,5 +45,5 @@ Open the `index.html` file in a browser to use the project.
 
 ## Live Demo
 ![slider](https://github.com/user-attachments/assets/4c5bb741-ebdf-4253-83c2-10384eb7faaf)
-- [Slider modifying properties in the dom to update the current element](https://incandescent-gumption-a0779c.netlify.app/)
+- [A sliding element component that dynamically updates the displayed content.](https://incandescent-gumption-a0779c.netlify.app/)
 

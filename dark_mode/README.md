@@ -57,4 +57,4 @@ Open the `index.html` file in a browser to view the project.
 ## Live Demo
 ![dark-mode-1](https://github.com/user-attachments/assets/73417d5b-17d9-4c13-bbb5-29cc58a6bee1)
 ![dark-mode-2](https://github.com/user-attachments/assets/42d33ab0-1ad4-4ea8-99df-4db858c1b1c3)
-- [Dark mode using css variables to change the colors](https://relaxed-gumdrop-88c9b6.netlify.app/)
+- [A dark mode toggle using CSS variables for easy theme switching.](https://relaxed-gumdrop-88c9b6.netlify.app/)

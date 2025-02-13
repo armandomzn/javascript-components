@@ -45,4 +45,4 @@ Open the `index.html` file in a browser to view the project.
 
 ## Live Demo
 ![pagination](https://github.com/user-attachments/assets/8a467850-b3c5-4515-aa14-91c3fdc37152)
-- [Pagination project using github api to fetch some random users and display the data through a class that controls the pagination](https://unrivaled-speculoos-43cbc9.netlify.app/)
+- [A pagination system fetching user data from GitHub API and displaying in paginated format.](https://unrivaled-speculoos-43cbc9.netlify.app/)

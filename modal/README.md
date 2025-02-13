@@ -35,4 +35,4 @@ Open the `index.html` file in a browser to use the project.
 - Simple and clean design with CSS to style the modal.
 ## Live Demo
 ![modal](https://github.com/user-attachments/assets/6f57cbe4-e991-46f0-aa4e-ed8c4a4569e2)
-- [Modal](https://boisterous-tapioca-5dc5a2.netlify.app/)
+- [A simple modal that opens to display content dynamically.](https://boisterous-tapioca-5dc5a2.netlify.app/)

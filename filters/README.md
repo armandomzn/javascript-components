@@ -65,4 +65,4 @@ Open the `index.html` file in a browser to view the project.
 
 ## Live Demo
 ![filters](https://github.com/user-attachments/assets/e776a4a8-2072-4290-8928-165de753ba7f)
-- [Application using filters with ES6 methods](https://earnest-sfogliatella-bdd278.netlify.app/)
+- [A filtering system that uses ES6 methods for data manipulation.](https://earnest-sfogliatella-bdd278.netlify.app/)

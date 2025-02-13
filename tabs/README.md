@@ -46,7 +46,7 @@ Open the index.html file in a browser to view the project.
 ## Live Demo
 ![tabs-1](https://github.com/user-attachments/assets/cc2d7a52-dc9c-4f74-aa34-c32ecde52071)
 ![tabs-2](https://github.com/user-attachments/assets/c79e3a7a-22b7-43bf-8aad-424e2fa091e8)
-- [Tabs project where the data is injected through js and we search for the element through id](https://capable-strudel-b888ee.netlify.app/)
+- [Dynamic tabs where data is injected through JavaScript.](https://capable-strudel-b888ee.netlify.app/)
 
 
 

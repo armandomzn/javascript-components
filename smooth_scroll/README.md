@@ -45,4 +45,4 @@ Open the index.html file in a browser to use the project.
 ## Live Demo
 ![smooth-scroll-1](https://github.com/user-attachments/assets/82d73f97-6d6a-475b-92ed-055aa85ace43)
 ![smooth-scroll-2](https://github.com/user-attachments/assets/8feb41ec-744a-453d-9783-abd895497d91)
-- [Smooth scrolling with javascript calculating the height of the sections with getboundingclientrect function and fixed menu](https://loquacious-shortbread-b3b333.netlify.app/)
+- [Implement smooth scrolling with JavaScript and fixed navigation.](https://loquacious-shortbread-b3b333.netlify.app/)

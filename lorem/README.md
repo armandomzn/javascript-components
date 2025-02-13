@@ -43,6 +43,6 @@ Open the `index.html` file in a browser to use the project.
 
 ## Live Demo
 ![lorem](https://github.com/user-attachments/assets/b8fc9037-8c6f-4dd8-812e-fa600d9c7665)
-- [Dynamic lorem ipsum generator using forms](https://adorable-capybara-f08381.netlify.app/)
+- [A dynamic Lorem Ipsum text generator with form controls.](https://adorable-capybara-f08381.netlify.app/)
 
 

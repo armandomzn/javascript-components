@@ -45,5 +45,5 @@ Open the `index.html` file in a browser to use the project.
 
 ## Live Demo
 ![random_color_generator](https://github.com/user-attachments/assets/6ce6e70b-3e0e-4160-aa98-9dd8834156db)
-- [Random color generator using recursion for rgb and hex colors](https://charming-clafoutis-767e43.netlify.app/)
+- [Generate random colors using recursion for both RGB and HEX formats.](https://charming-clafoutis-767e43.netlify.app/)
 

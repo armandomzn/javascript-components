@@ -45,4 +45,4 @@ Open the `index.html` file in a browser to use the project.
 ## Live Demo
 ![sidebar-1](https://github.com/user-attachments/assets/12d4b338-3a99-42dc-877f-aa1ad093fa19)
 ![sidebar-2](https://github.com/user-attachments/assets/d7c44e31-3679-4e62-9db0-119acebee5ba)
-- [Sidebar and modal](https://celebrated-gelato-467006.netlify.app/)
+- [An interactive sidebar with a modal feature for displaying additional content.](https://celebrated-gelato-467006.netlify.app/)

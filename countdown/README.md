@@ -48,4 +48,4 @@ Open the `index.html` file in a browser to view the project.
 
 ## Live Demo
 ![countdown](https://github.com/user-attachments/assets/449bf429-d97e-4161-81fc-56bac09b3a6f)
-- [Countdown project where the count is updated every 7 days after the page is restarted.](https://gorgeous-frangipane-7ae5db.netlify.app/)
+- [A countdown timer that updates every 7 days after the page refreshes.](https://gorgeous-frangipane-7ae5db.netlify.app/)

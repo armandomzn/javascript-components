@@ -46,4 +46,4 @@ Open the `index.html` file in a browser to view the project.
 ## Live Demo
 ![cocktail-api](https://github.com/user-attachments/assets/8eeee434-28e4-4b99-a6ca-c4134668ee80)
 ![cocktail-api-1](https://github.com/user-attachments/assets/a2bde403-3119-42aa-87d2-508ecb1a6d1f)
-- [Fetching data from cocktail api and searching cocktails given the endpoint](https://main--subtle-wisp-0dfd74.netlify.app/)
+- [Fetching and displaying cocktail recipes based on API data.](https://main--subtle-wisp-0dfd74.netlify.app/)

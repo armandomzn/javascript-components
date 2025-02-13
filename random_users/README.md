@@ -44,4 +44,4 @@ Open the `index.html` file in a browser to view the project.
 
 ## Live Demo
 ![random-user](https://github.com/user-attachments/assets/ddecaf22-c14e-4d32-95d4-56f670903814)
-- [Fetching data from random user api](https://shiny-paprenjak-dd71ec.netlify.app/)
+- [Fetching random user data from the Random User Generator API.](https://shiny-paprenjak-dd71ec.netlify.app/)

@@ -46,4 +46,4 @@ Open the `index.html` file in a browser to view the project.
 
 ## Live Demo
 ![gallery-1](https://github.com/user-attachments/assets/d05cd071-9c50-49e7-9721-ecbcdaa88364)
-- [Gallery using a class to manage the state of the elements](https://cheery-moonbeam-293c01.netlify.app/)
+- [An image gallery where each element’s state is managed by a JavaScript class.](https://cheery-moonbeam-293c01.netlify.app/)

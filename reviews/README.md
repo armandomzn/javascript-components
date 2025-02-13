@@ -45,4 +45,4 @@ Open the `index.html` file in a browser to use the project.
 
 ## Live Demo
 ![reviews](https://github.com/user-attachments/assets/9fbde768-8e5b-40be-9274-d5ce49652f90)
-- [Reviews with index handling](https://polite-cendol-435002.netlify.app/)
+- [A project to display random reviews with images, names, and text, with navigation functionality.](https://polite-cendol-435002.netlify.app/)

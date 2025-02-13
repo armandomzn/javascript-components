@@ -46,4 +46,4 @@ Open the `index.html` file in a browser to use the project.
 ## Live Demo
 ![navbar-1](https://github.com/user-attachments/assets/42ae09da-5f5f-46f5-9a76-22d341c5da4b)
 ![navbar-2](https://github.com/user-attachments/assets/2293eda4-0254-421f-9b48-8666c64dd8a2)
-- [Responsive navbar that dynamically adjusts the navigation links that are provided](https://funny-sawine-3c5025.netlify.app/)
+- [A responsive navigation bar that adjusts the links dynamically.](https://funny-sawine-3c5025.netlify.app/)

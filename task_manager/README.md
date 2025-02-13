@@ -55,4 +55,4 @@ Open the `index.html` file in a browser to view the project.
 
 ## Live Demo
 ![task_manager](https://github.com/user-attachments/assets/b7b78202-682e-46a4-9cbd-21215531d495)
-- [Task manager using local storage](https://eloquent-cassata-5ab73c.netlify.app/)
+- [A simple task manager that uses local storage to persist tasks.](https://eloquent-cassata-5ab73c.netlify.app/)

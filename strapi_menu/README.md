@@ -46,5 +46,5 @@ Open the `index.html` file in a browser to view the project.
 ## Live Demo
 ![strapi-menu-1](https://github.com/user-attachments/assets/78d66bc2-631e-473f-99fb-0f79ae07d777)
 ![strapi-menu-2](https://github.com/user-attachments/assets/39b494a5-e75d-4f89-aa0d-d450a512c95e)
-- [Strapi type menu using mouse events to handle the submenus and adding sidebar for small devices](https://animated-sunburst-47a37e.netlify.app/)
+- [A dynamic menu that fetches data from a data.js file and adapts its layout based on the screen size.](https://animated-sunburst-47a37e.netlify.app/)
 
